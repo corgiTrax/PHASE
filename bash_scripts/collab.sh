@@ -21,7 +21,7 @@
 # 18 init_pos_i1
 
 
-n_vids=60
+n_vids=480
 for ((i=0;i<n_vids;++i)); do
   #get params
   args=()

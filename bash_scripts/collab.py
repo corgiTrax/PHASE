@@ -48,8 +48,8 @@ free_paths = ["01", "02", "03", "12", "13", "23"]
 paths[key] = free_paths
 
 
-n_vids_per_env = 3
-all_envs = [0, 2, 4, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]  # 18
+n_vids_per_env = 480
+all_envs = [0]#[0, 2, 4, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]  # 18
 # symmetric positions
 rm0pos = [0, 1, 10, 14]
 rm1pos = [4, 5, 12, 16]
@@ -87,11 +87,11 @@ agents = [0, 1]
 big_sizes = [1, 2, 3]  # [2] #[1, 2]
 small_sizes = [0]  # [0, 1]
 all_sizes = [0, 1, 2, 3]  # [0, 1, 2]
-# big_sizes = small_sizes = all_sizes = [0]
+big_sizes = small_sizes = all_sizes = [0]
 # strengths
 # low_strength = [0, 1]
 # high_strength = [2, 3]
-all_strengths = [0, 1, 2, 3]  # [0, 1, 2, 3]
+all_strengths = [1]#[0, 1, 2, 3]  # [0, 1, 2, 3]
 all_rooms = [0, 1, 2, 3]
 alphas = {"agent0": [], "agent1": []}
 sizes = {"agent0": [], "agent1": [], "item0": [], "item1": []}
